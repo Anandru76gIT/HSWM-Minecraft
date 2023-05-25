@@ -1,29 +1,7 @@
 Cheat Codes
 Use these codes instead to prank on someone! Or you can also cheat and win the game and showoff.
 
------------------------------------------------------START OF CODES-----------------------------------------------------
-layer.onChat("/apply hardmod_weather", function () {
-/hsw_mod.enter:
-		gameplay.title(mobs.target(ALL_PLAYERS), "Hard Weather Mod Engaged", "It will be hard now to beat Minecraft now.")
-    gameplay.title(mobs.target(NEAREST_PLAYER), "Random player will be given 10,00,000 xp", "Good to player who recieved xp")
-    player.say("Note to players: You may not be able to win the game cuz its too hard but, player with")
-    player.say("1000000 xp will be considered god of the game or the head.")
-    gameplay.setGameRule(MOB_SPAWNING, false)
-    gameplay.setWeather(THUNDER)
-    gameplay.timeSet(gameplay.time(DUSK))
-    gameplay.setDifficulty(HARD)
-    gameplay.setGameMode(
-    SURVIVAL,
-    mobs.target(ALL_PLAYERS)
-    )
-    gameplay.xp(1000000, mobs.target(RANDOM_PLAYER))
-})
-player.teleport(pos(150000766, 764557888, 21567654))
-player.runChatCommand("/apply hardmod_weather")
-agent.teleportToPlayer()
-let PlayerDeath_counter = 34532134
------------------------------------------------------END OF CODES-----------------------------------------------------
------------------------------------------------------START OF CHEAT COMMANDS-----------------------------------------------------
+-----------------------------------------------------START OF CHEAT CODES-----------------------------------------------------
 NOTE: Instead of writing /entercommand<command> you also use /ec<command>
 
 COMMAND 1
@@ -45,3 +23,4 @@ COMMAND 5
 /entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #this command. After entering this command make 
 /entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #to enter the command: 
 /entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #/entercommand.ownership_transfer(myself)?
+-----------------------------------------------------END OF CHEAT CODES-----------------------------------------------------
