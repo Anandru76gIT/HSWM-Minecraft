@@ -1,7 +1,7 @@
 Basic Mod Code
 Add these codes to your Minecraft Education Edition (MEE) World.
 
------------------------------------------------------START OF CODES-----------------------------------------------------
+-----------------------------------------------------START OF CODE-----------------------------------------------------
 player.onChat("/apply hardmod_weather", function () {
     gameplay.title(mobs.target(ALL_PLAYERS), "Hard Weather Mod Engaged", "It will be hard now to beat Minecraft now.")
     gameplay.title(mobs.target(NEAREST_PLAYER), "Random player will be given 10,00,000 xp", "Good to player who recieved xp")
@@ -21,4 +21,4 @@ player.teleport(pos(150000766, 764557888, 21567654))
 player.runChatCommand("/apply hardmod_weather")
 agent.teleportToPlayer()
 let PlayerDeath_counter = 34532134
------------------------------------------------------END OF CODES-----------------------------------------------------
+-----------------------------------------------------END OF CODE-----------------------------------------------------
