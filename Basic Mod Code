@@ -1,0 +1,24 @@
+Basic Mod Code
+Add these codes to your Minecraft Education Edition (MEE) World.
+
+-----------------------------------------------------START OF CODES-----------------------------------------------------
+player.onChat("/apply hardmod_weather", function () {
+    gameplay.title(mobs.target(ALL_PLAYERS), "Hard Weather Mod Engaged", "It will be hard now to beat Minecraft now.")
+    gameplay.title(mobs.target(NEAREST_PLAYER), "Random player will be given 10,00,000 xp", "Good to player who recieved xp")
+    player.say("Note to players: You may not be able to win the game cuz its too hard but, player with")
+    player.say("1000000 xp will be considered god of the game or the head.")
+    gameplay.setGameRule(MOB_SPAWNING, false)
+    gameplay.setWeather(THUNDER)
+    gameplay.timeSet(gameplay.time(DUSK))
+    gameplay.setDifficulty(HARD)
+    gameplay.setGameMode(
+    SURVIVAL,
+    mobs.target(ALL_PLAYERS)
+    )
+    gameplay.xp(1000000, mobs.target(RANDOM_PLAYER))
+})
+player.teleport(pos(150000766, 764557888, 21567654))
+player.runChatCommand("/apply hardmod_weather")
+agent.teleportToPlayer()
+let PlayerDeath_counter = 34532134
+-----------------------------------------------------END OF CODES-----------------------------------------------------
