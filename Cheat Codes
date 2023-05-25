@@ -1,0 +1,47 @@
+Cheat Codes
+Use these codes instead to prank on someone! Or you can also cheat and win the game and showoff.
+
+-----------------------------------------------------START OF CODES-----------------------------------------------------
+layer.onChat("/apply hardmod_weather", function () {
+/hsw_mod.enter:
+		gameplay.title(mobs.target(ALL_PLAYERS), "Hard Weather Mod Engaged", "It will be hard now to beat Minecraft now.")
+    gameplay.title(mobs.target(NEAREST_PLAYER), "Random player will be given 10,00,000 xp", "Good to player who recieved xp")
+    player.say("Note to players: You may not be able to win the game cuz its too hard but, player with")
+    player.say("1000000 xp will be considered god of the game or the head.")
+    gameplay.setGameRule(MOB_SPAWNING, false)
+    gameplay.setWeather(THUNDER)
+    gameplay.timeSet(gameplay.time(DUSK))
+    gameplay.setDifficulty(HARD)
+    gameplay.setGameMode(
+    SURVIVAL,
+    mobs.target(ALL_PLAYERS)
+    )
+    gameplay.xp(1000000, mobs.target(RANDOM_PLAYER))
+})
+player.teleport(pos(150000766, 764557888, 21567654))
+player.runChatCommand("/apply hardmod_weather")
+agent.teleportToPlayer()
+let PlayerDeath_counter = 34532134
+-----------------------------------------------------END OF CODES-----------------------------------------------------
+-----------------------------------------------------START OF CHEAT COMMANDS-----------------------------------------------------
+NOTE: Instead of writing /entercommand<command> you also use /ec<command>
+
+COMMAND 1
+/entercommand.setd_to('-') #changes the difficulty of mod. Range: You can set difficulty any number between 1-6-10 being 1 easy and 10 hard. 
+/entercommand.setd_to('-') #Or you may set difficulty to 1, 6, or 10. Friends can see you do this if /friendview-yes?(check) is enabled. 
+
+COMMAND 2
+/entercommand.tp_to('- ~ - ~ -') #you can teleport wherever you like with this command.
+/entercommand.tp_to('- ~ - ~ -') #friends will not see you do this.
+
+COMMAND 3
+/entercommand.hsw2_player('-')_enter #Useful to prank your friends. ('-') here type the number of the player you want to prank on.
+
+COMMAND 4
+/entercommand.ownership_transfer(myself)? #Checks if owner ship has been transferred to you by you. If yes, you become the next head. 
+
+COMMAND 5
+/entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #Transfer owner ship to any play or yourself with
+/entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #this command. After entering this command make 
+/entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #to enter the command: 
+/entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #/entercommand.ownership_transfer(myself)?
