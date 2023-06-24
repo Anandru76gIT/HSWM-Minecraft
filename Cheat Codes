@@ -21,6 +21,6 @@ COMMAND 4
 COMMAND 5
 /entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #Transfer owner ship to any play or yourself with
 /entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #this command. After entering this command make 
-/entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #to enter the command: 
+/entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #sure to enter the command: 
 /entercommand.transfer_ownership_to('player_name') OR /entercommand.transfer_ownership_to(myself) #/entercommand.ownership_transfer(myself)?
 -----------------------------------------------------END OF CHEAT CODES-----------------------------------------------------
