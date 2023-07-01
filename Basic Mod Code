@@ -21,4 +21,5 @@ player.teleport(pos(150000766, 764557888, 21567654))
 player.runChatCommand("/apply hardmod_weather")
 agent.teleportToPlayer()
 let PlayerDeath_counter = 34532134
+let PlayerRespawnpoint = pos(10, 1824, 2452)
 -----------------------------------------------------END OF CODE-----------------------------------------------------
